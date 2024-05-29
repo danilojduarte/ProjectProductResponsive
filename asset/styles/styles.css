@@ -141,7 +141,9 @@ font-weight: var(--font-semi-bold);
 }
 
 /* Show menu */
-
+.show-menu {
+  right: 0;
+}
 
 /* Background header */
 
