@@ -18,7 +18,10 @@ if(navClose) {
 };
 
 /*=============== REMOVE MENU MOBILE ===============*/
+const navLink = document.getElementById('nav-menu')
+navMenu.classList.remove('show-menu')
 
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SWIPER CLOTHING ===============*/
 
