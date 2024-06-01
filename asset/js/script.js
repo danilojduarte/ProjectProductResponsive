@@ -37,6 +37,17 @@ let swiperHome = new Swiper('.home__swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      centeredSlides: 'auto',
+    },
+    1152: {
+      slidesPerView: 'auto',
+      centeredSlides: -64,
+    }
+  }
 });
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/

@@ -150,7 +150,7 @@ font-weight: var(--font-semi-bold);
 
 /*=============== HOME ===============*/
 .home__container {
-  /* height: 100vh */
+  height: 100vh;
   padding-block: 9rem 2rem;
   display: grid;
   align-items: center;
@@ -229,6 +229,30 @@ font-weight: var(--font-semi-bold);
   color: var(--black-color);
 }
 /* Swiper class */
+.swiper {
+  margin-inline: initial;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: initial;
+  bottom: 0;
+  font-size: 1.5rem;
+  color: var(--black-color);
+}
+
+.swiper-button-prev {
+  left: calc(50% - 8rem);
+}
+
+.swiper-button-next {
+  right: calc(50% - 8rem);
+}
 
 
 /*=============== BREAKPOINTS ===============*/
