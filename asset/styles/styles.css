@@ -257,6 +257,20 @@ font-weight: var(--font-semi-bold);
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and ( max-width: 330px ) { 
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .home__img {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .home__title {
+    font-size: 5rem;
+  }
+}
 
 
 /* For medium devices */
