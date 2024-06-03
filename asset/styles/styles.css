@@ -263,17 +263,51 @@ font-weight: var(--font-semi-bold);
   }
 
   .home__img {
-    width: 200px;
+    width: 100px;
     margin-bottom: 3rem;
   }
 
   .home__title {
     font-size: 5rem;
   }
+
+  .home__circle {
+    width: 240px;
+    height: 240px;
+  }
+
+  .home__subcircle {
+    width: 206px;
+    height: 206px;
+  }
 }
 
-
 /* For medium devices */
+@media  screen and (min-width: 768px) {
+  .nav__menu {
+    width: 50%;
+  }
+
+  .home__article {
+    scale: .6;
+    transition: scale .3s;
+  }
+
+  .home__product,
+  .home__price {
+    opacity: 0;
+    transition: opacity .3s;
+  }
+
+  /* Swiper Class */
+  .swiper-slide-active {
+    scale: 1;
+  }
+
+  .swiper-slide-active :is(.home__product, .home__price) {
+    opacity: 1;
+  }
+}
 
 
 /* For large devices */
