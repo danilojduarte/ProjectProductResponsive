@@ -147,7 +147,10 @@ font-weight: var(--font-semi-bold);
 }
 
 /* Background header */
-
+.bg-header {
+  background-color: var(--first-color);
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .1);
+}
 
 /*=============== HOME ===============*/
 .home__container {
