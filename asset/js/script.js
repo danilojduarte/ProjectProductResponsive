@@ -61,3 +61,9 @@ const bgHeader = () => {
 window.addEventListener('scroll', bgHeader)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal ({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  
+})
