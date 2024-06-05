@@ -65,5 +65,11 @@ const sr = ScrollReveal ({
   origin: 'top',
   distance: '60px',
   duration: 2500,
-  
+
 })
+
+sr.reveal(`.home__swiper, .home__footer`)
+sr.reveal(`.home__circle`, {scale: 1.5, delay: 300})
+sr.reveal(`.home__subcircle`, {scale: 1.5, delay: 500})
+sr.reveal(`.home__title`, {scale: 1, origin: 'bottom', delay: 1200})
+sr.reveal(`.swiper_button-prev, .swiper-button-nex`, {origin: 'bottom'})
